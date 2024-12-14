@@ -10,13 +10,11 @@ fun main () {
     var quantityIntern = 30
     var paymentForOneIntern = 20000
     var salaryExpensesIntern = (quantityIntern * paymentForOneIntern)
-    var ExpensEmployeIntern = salaryExpensesIntern + salaryExpensesEmployees
+    var expensEmployeIntern = salaryExpensesIntern + salaryExpensesEmployees
 
-    println(ExpensEmployeIntern)
+    println(expensEmployeIntern)
 
-    var averageValue = (ExpensEmployeIntern) / (quantityIntern + quantityEmployees)
+    var averageValue = (expensEmployeIntern) / (quantityIntern + quantityEmployees)
 
     println(averageValue)
-
-
 }
