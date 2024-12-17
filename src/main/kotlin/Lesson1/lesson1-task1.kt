@@ -1,9 +1,7 @@
 package org.example.Lesson1
 
-fun main (){
+fun main() {
     var numberOfOrder: Int = 75
-    val messageToOrder: String = "Количество товара: "+ numberOfOrder + ". Спасибо за ваш заказ! Будем рады видеть вас снова!"
+    val messageToOrder: String = "Спасибо за ваш заказ! Будем рады видеть вас снова!"
 
-    println (numberOfOrder)
-    println (messageToOrder)
 }
