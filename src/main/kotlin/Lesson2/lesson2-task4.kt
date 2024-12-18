@@ -1,6 +1,6 @@
 package org.example.Lesson2
 
-fun main () {
+fun main() {
     var crystalOre = 7
     var ironOre = 11
 
