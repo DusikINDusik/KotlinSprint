@@ -4,14 +4,14 @@ fun main() {
     var userName = "Эдуард"
     var message = "Доброе утро!"
 
-    //println(message + " " + userName)
+    //println("$message $userName")
 
     message = "Добрый день!"
 
-    //println(message + " " + userName)
+    //println("$message $userName")
 
     message = "Добрый вечер!"
 
-    println(message + " " + userName)
+    println("$message $userName")
 
 }
