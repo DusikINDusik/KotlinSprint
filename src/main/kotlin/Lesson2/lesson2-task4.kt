@@ -6,8 +6,8 @@ fun main() {
 
     var buff = 20
 
-    var buffCrystalOre = (crystalOre * buff) / 100
-    var buffIronOre = (ironOre * buff) / 100
+    var buffCrystalOre = (crystalOre * buff) / CALCULATING_THE_BUFF
+    var buffIronOre = (ironOre * buff) / CALCULATING_THE_BUFF
 
     var finalCrystalOre = buffCrystalOre + crystalOre
     var finalIronOre = buffIronOre + ironOre
@@ -15,3 +15,4 @@ fun main() {
     println(finalCrystalOre)
     println(finalIronOre)
 }
+const val CALCULATING_THE_BUFF = 100
