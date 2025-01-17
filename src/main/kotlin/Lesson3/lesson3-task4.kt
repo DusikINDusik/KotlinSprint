@@ -5,13 +5,13 @@ fun main() {
     var where: String = "E4"
     var stepNumber: Byte = 1
 
-    //println("Из клетки - $whereFrom, В клетку - $where, Номер хода - $stepNumber")
+    //println("[$whereFrom-$where;$stepNumber]")
 
     whereFrom = "D2"
     where = "D3"
     stepNumber = 1
 
-    println("Из клетки - $whereFrom, В клетку - $where, Номер хода - $stepNumber")
+    println("[$whereFrom-$where;$stepNumber]")
 
 
 }
