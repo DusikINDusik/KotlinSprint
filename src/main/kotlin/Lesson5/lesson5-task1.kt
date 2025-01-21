@@ -7,8 +7,7 @@ fun main() {
 
     if (userAsk == 15) {
         println("Добро пожаловать")
-    }
-    else {
+    } else {
         println("Доступ запрещен.")
     }
 }
