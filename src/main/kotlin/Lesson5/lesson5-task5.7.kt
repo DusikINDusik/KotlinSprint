@@ -22,4 +22,5 @@ fun main() {
 
 }
 
+
 const val hundredKilometers = 100 // для рассчета расхода топлива
