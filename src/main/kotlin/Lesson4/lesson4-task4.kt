@@ -1,21 +1,15 @@
 package org.example.Lesson4
 
 fun main() {
-    val workoutDay = 7
-    val calculetWorcoutDay = workoutDay % 2
-    val isEven: Boolean = 0 == calculetWorcoutDay
-
-    val armMuscule: Boolean = 1 == calculetWorcoutDay
-    val legMuscule: Boolean = 0 == calculetWorcoutDay
-    val backMuscule: Boolean = 0 == calculetWorcoutDay
-    val pressMuscule: Boolean = 1 == calculetWorcoutDay
+    val workoutDay = 5
+    val isEven = (workoutDay % 2 == 0)
 
     println(
-        """Упражнения для рук:   ${armMuscule && !isEven}
-       |Упражнения для ног:   ${legMuscule && isEven}
-       |Упражнения для спины: ${backMuscule && isEven}
-       |Упражнения для пресса:${pressMuscule && !isEven}
-    """.trimMargin()
+        """Упражнения для рук:    ${!isEven}
+       |Упражнения для ног:    $isEven
+       |Упраженение для спины: $isEven
+       |Упражнение для пресса: ${!isEven}
+     """.trimMargin()
     )
 
 }
