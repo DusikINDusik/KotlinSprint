@@ -14,9 +14,9 @@ fun main() {
         println("Недостаточная масса тела")
     } else if (bmi >= SMALL_HEIGHT && bmi < GOOD_HEIGHT) {
         println("Нормальная масса тела")
-    } else if (bmi >= GOOD_HEIGHT && bmi < OVER_WEIGHT){
+    } else if (bmi >= GOOD_HEIGHT && bmi < OVER_WEIGHT) {
         println("Избыточная масса тела")
-    }  else if (bmi >= OVER_WEIGHT){
+    } else if (bmi >= OVER_WEIGHT) {
         println("Ожирение")
     }
 }
