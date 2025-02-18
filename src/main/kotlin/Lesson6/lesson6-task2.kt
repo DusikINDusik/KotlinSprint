@@ -2,12 +2,11 @@ package org.example.Lesson6
 
 fun main() {
     println("Сколько секунд засечь?")
-    var timer = readln().toInt()
-    var countdown = timer
+    var timer = readln().toLong()
 
-    while (countdown>0){
-        println(countdown--)
-        Thread.sleep(1000)
-    }
+    Thread.sleep(timer * MILLIS)
+
     println("Прошло $timer секунд")
+
 }
+const val MILLIS = 1000
