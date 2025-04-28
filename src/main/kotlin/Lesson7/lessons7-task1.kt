@@ -2,6 +2,7 @@ package org.example.Lessons7
 
 fun main() {
     var count = 3
+
     var password = ""
 
     for (i in 1..count) {
