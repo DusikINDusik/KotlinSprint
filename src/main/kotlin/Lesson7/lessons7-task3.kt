@@ -5,9 +5,9 @@ fun main() {
 
     var userNumber = readln().toInt()
 
-    var evenNumber = 0..userNumber step 2
+    //var evenNumber = 0..userNumber step 2
 
-    for (search in evenNumber) {
+    for (search in (0.. userNumber).step(2)) {
         println(search)
     }
 }
