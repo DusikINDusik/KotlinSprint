@@ -5,12 +5,10 @@ fun main() {
 
     var userNumber = readln().toInt()
 
-    for (theParity in 0..userNumber){
-        if (theParity % 2 == 0) {
-            println(theParity)
-        }
+    var evenNumber = 0..userNumber step 2
+
+    for (search in evenNumber) {
+        println(search)
     }
-
-
 }
 
