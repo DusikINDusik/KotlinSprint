@@ -15,11 +15,10 @@ class User2(
         println("Информация bio: $bio")
     }
 
-    fun infoBio(): String {
+    fun infoBio() {
         print("Введите информацию о bio: ")
         var newInfo = readln()
         bio = newInfo
-        return newInfo
     }
 
     fun changePassword() {
@@ -36,7 +35,7 @@ class User2(
 
 fun main() {
 
-    var user = User2(
+    val user = User2(
         userId = 1,
         login = "Mike",
         password = "Aa123456&",
